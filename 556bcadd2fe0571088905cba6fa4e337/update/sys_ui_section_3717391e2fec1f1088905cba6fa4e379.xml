@@ -4,27 +4,41 @@
             <element>close_notes</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-16 14:21:37</sys_created_on>
-            <sys_id>fb17391e2fec1f1088905cba6fa4e3bb</sys_id>
+            <sys_created_on>2026-11-17 13:54:02</sys_created_on>
+            <sys_id>dd6ab6622f28df1088905cba6fa4e3ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Activity" display_value="Activity" name="x_2225841_wrm_reservation_tracker" sys_domain="global" view="Default view">3717391e2fec1f1088905cba6fa4e379</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-16 14:21:37</sys_updated_on>
+            <sys_updated_on>2026-11-17 13:54:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-17 13:54:02</sys_created_on>
+            <sys_id>956af6622f28df1088905cba6fa4e301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_2225841_wrm_reservation_tracker" sys_domain="global" view="Default view">3717391e2fec1f1088905cba6fa4e379</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-17 13:54:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity.xml</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-16 14:21:38</sys_created_on>
-            <sys_id>7b17391e2fec1f1088905cba6fa4e3bc</sys_id>
+            <sys_created_on>2026-11-17 13:54:02</sys_created_on>
+            <sys_id>156af6622f28df1088905cba6fa4e302</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="Activity" display_value="Activity" name="x_2225841_wrm_reservation_tracker" sys_domain="global" view="Default view">3717391e2fec1f1088905cba6fa4e379</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-16 14:21:38</sys_updated_on>
+            <sys_updated_on>2026-11-17 13:54:02</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
