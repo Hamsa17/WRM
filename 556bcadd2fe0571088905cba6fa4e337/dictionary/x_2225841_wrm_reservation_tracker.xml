@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="b868655e2f6c1f1088905cba6fa4e356" extends="task" label="Reservation Tracker" max_length="40" name="x_2225841_wrm_reservation_tracker" type="collection">
+        <element label="Workspace" max_length="32" name="workspace" reference="x_2225841_wrm_workspace_options" type="reference"/>
+        <element label="Reserved for" max_length="32" name="reserved_for" reference="sys_user" type="reference"/>
+        <element label="Additional notes" max_length="255" name="additional_notes" type="string_full_utf8"/>
+        <element choice="1" label="Reservation status" max_length="40" name="reservation_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Checked-out" value="3"/>
+                <element inactive_on_update="false" label="Cancelled" value="4"/>
+                <element inactive_on_update="false" label="No-show" value="5"/>
+                <element inactive_on_update="false" label="Pending check-in" value="1"/>
+                <element inactive_on_update="false" label="Checked-in" value="2"/>
+            </choice>
+        </element>
+        <element label="Request number" max_length="32" name="request_number" reference="sc_req_item" type="reference"/>
+        <element label="Sent to maintenance" max_length="40" name="sent_to_maintenance" type="boolean"/>
+    </element>
+</database>

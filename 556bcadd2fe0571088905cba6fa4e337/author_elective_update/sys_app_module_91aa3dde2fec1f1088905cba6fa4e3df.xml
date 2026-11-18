@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Workspace Reservation  Management">6b2bd4ca2f249b1088905cba6fa4e3c9</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_2225841_wrm_reservation_tracker">state=1^EQ<item display_value="Open" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Open</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_2225841_wrm_reservation_tracker</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_2225841_wrm.wrm_agent</roles>
+        <route/>
+        <screen/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 14:38:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>91aa3dde2fec1f1088905cba6fa4e3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="WRM" source="x_2225841_wrm">556bcadd2fe0571088905cba6fa4e337</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WRM">556bcadd2fe0571088905cba6fa4e337</sys_scope>
+        <sys_update_name>sys_app_module_91aa3dde2fec1f1088905cba6fa4e3df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 14:38:04</sys_updated_on>
+        <timeline_page/>
+        <title>Open</title>
+        <uncancelable>false</uncancelable>
+        <ux_list/>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="WRM">556bcadd2fe0571088905cba6fa4e337</application>
+        <file_path/>
+        <instance_id>6edb5a84fb8a47d00c92f633beefdcb9</instance_id>
+        <instance_name>dev427914</instance_name>
+        <name>sys_app_module_91aa3dde2fec1f1088905cba6fa4e3df</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Workspace Reservation  Management">6b2bd4ca2f249b1088905cba6fa4e3c9</application><assessment/><device_type/><filter table="x_2225841_wrm_reservation_tracker">state=1^EQ<item display_value="Open" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Open</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_2225841_wrm_reservation_tracker</name><order>200</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_2225841_wrm.wrm_agent</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-16 14:38:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>91aa3dde2fec1f1088905cba6fa4e3df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open</sys_name><sys_overrides/><sys_package display_value="WRM" source="x_2225841_wrm">556bcadd2fe0571088905cba6fa4e337</sys_package><sys_policy/><sys_scope display_value="WRM">556bcadd2fe0571088905cba6fa4e337</sys_scope><sys_update_name>sys_app_module_91aa3dde2fec1f1088905cba6fa4e3df</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-16 14:38:04</sys_updated_on><timeline_page/><title>Open</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-522865021</payload_hash>
+        <record_name>Open</record_name>
+        <reverted_from/>
+        <source>96d935922f205f1088905cba6fa4e30b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 14:38:04</sys_created_on>
+        <sys_id>34eabdd22f205f1088905cba6fa4e3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1e4cb348f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 14:38:04</sys_updated_on>
+        <type>Module</type>
+        <update_guid>f0eabdd213205f1026f225a79c6086bf</update_guid>
+        <update_guid_history>f0eabdd213205f1026f225a79c6086bf:-522865021</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Open">63feb15e2f205f1088905cba6fa4e333</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 14:56:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0753ab4f045141f58680c1d4038899c1</sys_id>
+        <sys_metadata>91aa3dde2fec1f1088905cba6fa4e3df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_package display_value="WRM" source="x_2225841_wrm">556bcadd2fe0571088905cba6fa4e337</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="WRM">556bcadd2fe0571088905cba6fa4e337</sys_scope>
+        <sys_scope_delete display_value="">b0fdb0f90b1746b4b3ed14a966774384</sys_scope_delete>
+        <sys_update_name>sys_app_module_91aa3dde2fec1f1088905cba6fa4e3df</sys_update_name>
+        <sys_update_version display_value="sys_app_module_91aa3dde2fec1f1088905cba6fa4e3df">34eabdd22f205f1088905cba6fa4e3c0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 14:56:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

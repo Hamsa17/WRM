@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Workspace Reservation  Management">6b2bd4ca2f249b1088905cba6fa4e3c9</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Workspace Options</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>50</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_2225841_wrm.wrm_admin</roles>
+        <route/>
+        <screen/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-15 13:31:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>65d1244a2f649b1088905cba6fa4e35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace Options</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="WRM" source="x_2225841_wrm">556bcadd2fe0571088905cba6fa4e337</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WRM">556bcadd2fe0571088905cba6fa4e337</sys_scope>
+        <sys_update_name>sys_app_module_65d1244a2f649b1088905cba6fa4e35c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-15 13:31:10</sys_updated_on>
+        <timeline_page/>
+        <title>Workspace Options</title>
+        <uncancelable>false</uncancelable>
+        <ux_list/>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="WRM">556bcadd2fe0571088905cba6fa4e337</application>
+        <file_path/>
+        <instance_id>6edb5a84fb8a47d00c92f633beefdcb9</instance_id>
+        <instance_name>dev427914</instance_name>
+        <name>sys_app_module_65d1244a2f649b1088905cba6fa4e35c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Workspace Reservation  Management">6b2bd4ca2f249b1088905cba6fa4e3c9</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>Workspace Options</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>50</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_2225841_wrm.wrm_admin</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-15 13:31:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>65d1244a2f649b1088905cba6fa4e35c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workspace Options</sys_name><sys_overrides/><sys_package display_value="WRM" source="x_2225841_wrm">556bcadd2fe0571088905cba6fa4e337</sys_package><sys_policy/><sys_scope display_value="WRM">556bcadd2fe0571088905cba6fa4e337</sys_scope><sys_update_name>sys_app_module_65d1244a2f649b1088905cba6fa4e35c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-15 13:31:10</sys_updated_on><timeline_page/><title>Workspace Options</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>2087193865</payload_hash>
+        <record_name>Workspace Options</record_name>
+        <reverted_from/>
+        <source>347d98022f649b1088905cba6fa4e30a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-15 13:31:10</sys_created_on>
+        <sys_id>cff1a44a2f649b1088905cba6fa4e361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1df67984b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-15 13:31:10</sys_updated_on>
+        <type>Module</type>
+        <update_guid>8ff1a44ac0649b1031b0677a96bf9e60</update_guid>
+        <update_guid_history>8ff1a44ac0649b1031b0677a96bf9e60:2087193865</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Workspace Options">db30c2de2f205f1088905cba6fa4e3bb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 15:01:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0d7bccda0355410a9195fa95aed21a79</sys_id>
+        <sys_metadata>65d1244a2f649b1088905cba6fa4e35c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace Options</sys_name>
+        <sys_package display_value="WRM" source="x_2225841_wrm">556bcadd2fe0571088905cba6fa4e337</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="WRM">556bcadd2fe0571088905cba6fa4e337</sys_scope>
+        <sys_scope_delete display_value="">b0fdb0f90b1746b4b3ed14a966774384</sys_scope_delete>
+        <sys_update_name>sys_app_module_65d1244a2f649b1088905cba6fa4e35c</sys_update_name>
+        <sys_update_version display_value="sys_app_module_65d1244a2f649b1088905cba6fa4e35c">cff1a44a2f649b1088905cba6fa4e361</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 15:01:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,60 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="ticket_status" table="x_2225841_wrm_workspace_maintenance" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="workspace_status" table="x_2225841_wrm_workspace_maintenance" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>ticket_status</element>
+            <element>workspace_status</element>
             <name>x_2225841_wrm_workspace_maintenance</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-16 20:12:03</sys_created_on>
-            <sys_id>4157079a2f685f1088905cba6fa4e3ed</sys_id>
+            <sys_created_on>2026-11-16 20:09:42</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>ticket_status</sys_name>
+            <sys_name>workspace_status</sys_name>
             <sys_package display_value="WRM" source="x_2225841_wrm">556bcadd2fe0571088905cba6fa4e337</sys_package>
             <sys_policy/>
             <sys_scope display_value="WRM">556bcadd2fe0571088905cba6fa4e337</sys_scope>
-            <sys_update_name>sys_choice_x_2225841_wrm_workspace_maintenance_ticket_status</sys_update_name>
+            <sys_update_name>sys_choice_x_2225841_wrm_workspace_maintenance_workspace_status</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-16 20:12:03</sys_updated_on>
+            <sys_updated_on>2026-11-16 20:09:42</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>ticket_status</element>
+            <element>workspace_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Open</label>
+            <label>In maintenance</label>
             <language>en</language>
             <name>x_2225841_wrm_workspace_maintenance</name>
             <sequence/>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-16 20:39:48</sys_created_on>
+            <sys_created_on>2026-11-16 20:10:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b1ad8f9a2fa85f1088905cba6fa4e3cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-16 20:39:48</sys_updated_on>
+            <sys_updated_on>2026-11-16 20:10:17</sys_updated_on>
             <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>ticket_status</element>
+            <element>workspace_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Closed</label>
+            <label>Available</label>
             <language>en</language>
             <name>x_2225841_wrm_workspace_maintenance</name>
             <sequence/>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-16 20:12:03</sys_created_on>
+            <sys_created_on>2026-11-16 20:09:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4957079a2f685f1088905cba6fa4e3ec</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-16 20:12:26</sys_updated_on>
+            <sys_updated_on>2026-11-16 20:11:10</sys_updated_on>
             <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>workspace_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Decommissioned</label>
+            <language>en</language>
+            <name>x_2225841_wrm_workspace_maintenance</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-16 20:10:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-16 20:10:44</sys_updated_on>
+            <value>3</value>
         </sys_choice>
     </sys_choice>
 </record_update>
